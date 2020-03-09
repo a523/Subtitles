@@ -1,0 +1,47 @@
+88
+00:04:35,320 --> 00:04:39,398
+So we're concerned about--
+
+89
+00:04:43,760 --> 00:04:51,310
+--efficient procedures-- for
+solving large scale problems
+
+90
+00:04:51,310 --> 00:04:51,940
+in this class.
+
+91
+00:04:58,140 --> 00:05:01,640
+And we're concerned
+about scalability,
+
+92
+00:05:01,640 --> 00:05:07,030
+because-- just as,
+you know, 1,000
+
+93
+00:05:07,030 --> 00:05:09,600
+was a big number a
+couple of decades ago,
+
+94
+00:05:09,600 --> 00:05:12,140
+and now it's kind of
+a small number-- it's
+
+95
+00:05:12,140 --> 00:05:16,430
+quite possible that by the
+time you guys are professors
+
+96
+00:05:16,430 --> 00:05:18,220
+teaching this class
+in some university
+
+97
+00:05:18,220 --> 00:05:20,690
+that a trillion is going
+to be a small number.
