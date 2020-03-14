@@ -8,7 +8,7 @@ import re
 import math
 import aiohttp
 from aiohttp import TCPConnector
-from aiofile import AIOFile
+
 
 YOUDAO_URL = 'https://openapi.youdao.com/api'
 APP_KEY = 'Your APP KEY'
@@ -255,7 +255,8 @@ async def main(file):
                     print(result['errorCode'])
                     raise Exception(f"errorCode: {result['errorCode']}")
 
-    print("\r翻译完成，组合文本")
+    print("\r")
+    print("翻译完成，组合文本")
     j = 1
     for block in out_lines:
         block.reinsert_sentence()
